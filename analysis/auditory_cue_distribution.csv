@@ -1,0 +1,14 @@
+model,condition,auditory_cue,count
+kimi-audio-7b-instruct,marked_audio,none,42
+kimi-audio-7b-instruct,marked_audio,timing,3
+kimi-audio-7b-instruct,neutral_audio,none,44
+kimi-audio-7b-instruct,neutral_audio,timing,1
+qwen2-audio-7b-instruct,marked_audio,speech_rate,45
+qwen2-audio-7b-instruct,neutral_audio,speech_rate,45
+step-audio-2-mini,marked_audio,multiple,4
+step-audio-2-mini,marked_audio,pitch,2
+step-audio-2-mini,marked_audio,stress,11
+step-audio-2-mini,marked_audio,timing,28
+step-audio-2-mini,neutral_audio,none,3
+step-audio-2-mini,neutral_audio,stress,8
+step-audio-2-mini,neutral_audio,timing,34

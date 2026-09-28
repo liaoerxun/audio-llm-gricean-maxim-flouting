@@ -1,0 +1,10 @@
+
+# Keep generated CSV files with their original line endings
+*.csv -text
+
+# Normalize source code and documentation
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+# Preserve generated vector graphics
+*.svg -text

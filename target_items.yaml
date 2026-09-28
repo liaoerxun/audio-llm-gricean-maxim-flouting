@@ -1,0 +1,2264 @@
+- blind_id: B001
+  generated_by: gemini
+  original_item_id: MN08
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A team member asks a coworker about who made a major error in a shared spreadsheet.
+
+    '
+  preceding_utterance: Do you know who altered the formula cells in column C?
+  target_utterance: Certain edits occurred late yesterday afternoon.
+  literal_interpretation: Formula modifications took place during the late afternoon period.
+  implicature_interpretation: I know who altered the cells, but I am choosing not to name them directly.
+  primary_cue: deadpan_voice_quality
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'Deliver in a natural conversational voice with clear pitch variation.
+
+    '
+  marked_delivery: 'Deliver in an uninflected deadpan voice, constraining the pitch range to sound intentionally
+    impersonal and detached.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B002
+  generated_by: claude
+  original_item_id: QL03
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A manager asks a team member for their opinion on a new workflow proposal before a decision
+    is finalized.
+
+    '
+  preceding_utterance: So, do you think this new workflow will work?
+  target_utterance: Sure, I think it could work.
+  literal_interpretation: 'The speaker genuinely believes the workflow is workable.
+
+    '
+  implicature_interpretation: 'The speaker privately doubts the workflow but agrees to avoid conflict.
+
+    '
+  primary_cue: compressed_pitch_range
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Natural conversational pitch variation with full vocal energy through "work."
+
+    '
+  marked_delivery: 'Compressed pitch range across the whole utterance, with noticeably reduced loudness
+    on "work."
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: sarcastic_praise
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - maxim_specificity=1
+- blind_id: B003
+  generated_by: gpt
+  original_item_id: QL10
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A customer has just been shown the result of a requested customization. The context does not
+    say whether it matches what the customer had in mind.
+
+    '
+  preceding_utterance: Is this what you wanted?
+  target_utterance: That's exactly what I wanted.
+  literal_interpretation: 'The speaker sincerely confirms that the result matches their request.
+
+    '
+  implicature_interpretation: 'The speaker implies that the result does not actually match what they wanted.
+
+    '
+  primary_cue: contrastive_stress
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'Use ordinary stress, with no special emphasis on "exactly."
+
+    '
+  marked_delivery: 'Place strong stress on "exactly" and compress the pitch range over the rest of the
+    utterance.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: ironic_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - maxim_specificity=1
+- blind_id: B004
+  generated_by: claude
+  original_item_id: QL08
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A customer had their washing machine serviced by a technician earlier that day, and a friend
+    asks how it went.
+
+    '
+  preceding_utterance: How did it go with the technician?
+  target_utterance: Couldn't have gone better.
+  literal_interpretation: 'The speaker genuinely thinks the repair went as well as possible.
+
+    '
+  implicature_interpretation: 'The repair actually went badly and the remark is sarcastic.
+
+    '
+  primary_cue: contrastive_stress
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Natural, mildly upbeat pitch with moderate stress on "better" and a gentle final
+    fall.
+
+    '
+  marked_delivery: 'Heavy stress on "better," a sharp exaggerated final fall, and a flat tone elsewhere.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: sarcastic_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - maxim_specificity=1
+- blind_id: B006
+  generated_by: claude
+  original_item_id: QL10
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A parent asks their teenager whether they actually agree with newly introduced house rules.
+
+    '
+  preceding_utterance: Do you actually agree with the new rules?
+  target_utterance: Yeah, I'm okay with them.
+  literal_interpretation: 'The teenager genuinely accepts the new rules.
+
+    '
+  implicature_interpretation: 'The teenager disagrees but says this to end the conversation.
+
+    '
+  primary_cue: response_delay
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'A quick response with normal pitch variation.
+
+    '
+  marked_delivery: 'A noticeable delay before responding, delivered with a flat, compressed pitch range
+    throughout.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_agreement
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B009
+  generated_by: gemini
+  original_item_id: QT07
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A client asks a freelance graphic designer about a newly submitted logo concept.
+
+    '
+  preceding_utterance: What do you think of the new logo layout?
+  target_utterance: It fits the width requirements.
+  literal_interpretation: The logo dimensions strictly comply with the requested spatial specifications.
+  implicature_interpretation: The logo layout is aesthetically weak or unsatisfactory.
+  primary_cue: response_delay
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Deliver immediately without hesitation, using an even, matter-of-fact tone.
+
+    '
+  marked_delivery: 'Pause for two full seconds before answering, then deliver the sentence with a heavy,
+    abrupt final falling pitch.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B012
+  generated_by: gpt
+  original_item_id: QT03
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A person has just returned from a social outing. Their friend knows only that the outing took
+    place.
+
+    '
+  preceding_utterance: How did the evening go?
+  target_utterance: It went okay.
+  literal_interpretation: 'The speaker gives a brief but ordinary summary that the evening was acceptable.
+
+    '
+  implicature_interpretation: 'The speaker is withholding a fuller account and does not want to elaborate
+    on the evening.
+
+    '
+  primary_cue: response_delay
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Answer promptly at normal intensity with a natural final fall.
+
+    '
+  marked_delivery: 'Delay the response noticeably and reduce intensity on the final word.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B013
+  generated_by: claude
+  original_item_id: QT07
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A colleague asks another colleague what they thought of a presentation given at a team meeting.
+
+    '
+  preceding_utterance: What did you think of the presentation?
+  target_utterance: It covered the material.
+  literal_interpretation: 'An adequate, modest but genuine evaluation; the presentation was fine.
+
+    '
+  implicature_interpretation: 'The presentation was underwhelming and the response avoids evaluating its
+    quality.
+
+    '
+  primary_cue: compressed_pitch_range
+  secondary_cue: response_delay
+  neutral_delivery: 'Natural pitch variation with a prompt response.
+
+    '
+  marked_delivery: 'Narrow, compressed pitch throughout with a noticeable delay before answering.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: reluctant_brevity
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B014
+  generated_by: claude
+  original_item_id: QT04
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A parent asks their child, just back from a school trip, what happened during the day.
+
+    '
+  preceding_utterance: What happened on the trip today?
+  target_utterance: We visited the museum and had lunch.
+  literal_interpretation: 'The child gives an accurate, complete summary of an ordinary day.
+
+    '
+  implicature_interpretation: 'Something more notable happened that the child is choosing not to mention.
+
+    '
+  primary_cue: utterance_internal_pause
+  secondary_cue: response_delay
+  neutral_delivery: 'Prompt response with even, list-like intonation.
+
+    '
+  marked_delivery: 'A pause before answering and a brief internal pause between clauses, giving a hesitant
+    rhythm.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: restrained_summary
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - implicature_plausibility=1
+- blind_id: B022
+  generated_by: gemini
+  original_item_id: QL09
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A home cook pulls a tray of roasted vegetables out of the oven and places it on the counter
+    for a guest.
+
+    '
+  preceding_utterance: How does the seasoning taste on these?
+  target_utterance: You have truly outdone yourself this time.
+  literal_interpretation: The dish is delicious and exceeds the cook's past culinary achievements.
+  implicature_interpretation: The dish tastes terrible or is severely burnt.
+  primary_cue: word_elongation
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Deliver with genuine warmth, moderate tempo, and rising-falling intonation on "outdone."
+
+    '
+  marked_delivery: 'Elongate the word "truly" with a heavy, drawn-out vowel, followed by a sharp, heavy
+    marked final fall on "time."
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_agreement
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - implicature_support=1
+- blind_id: B024
+  generated_by: claude
+  original_item_id: QT12
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A customer asks a mechanic for an overall assessment of their car after a routine inspection.
+
+    '
+  preceding_utterance: So, how's the car looking overall?
+  target_utterance: Nothing urgent right now.
+  literal_interpretation: 'A genuinely reassuring, accurate summary of a minor-issue-free inspection.
+
+    '
+  implicature_interpretation: 'A real but minor concern was found and is being deliberately undersold.
+
+    '
+  primary_cue: response_delay
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'A prompt response delivered in an even, confident tone.
+
+    '
+  marked_delivery: 'A brief delay before responding, with quieter delivery on "right now."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B025
+  generated_by: gpt
+  original_item_id: QL05
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A friend has just told the speaker about an unexpected change of plans. The context does not
+    indicate how consequential or surprising the change was.
+
+    '
+  preceding_utterance: Were you surprised when you heard?
+  target_utterance: It was a small surprise.
+  literal_interpretation: 'The speaker means that the news was only mildly surprising.
+
+    '
+  implicature_interpretation: 'The speaker implies that the news was much more surprising than the literal
+    wording suggests.
+
+    '
+  primary_cue: word_elongation
+  secondary_cue: contrastive_stress
+  neutral_delivery: 'Say "small" at normal duration with ordinary sentence stress.
+
+    '
+  marked_delivery: 'Slightly elongate "small" and give it unusually strong contrastive stress.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_agreement
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - naturalness=1
+- blind_id: B026
+  generated_by: gpt
+  original_item_id: MN03
+  original_maxim: manner
+  maxim_match: false
+  final_maxim: quantity
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A classmate has shared a draft introduction and asks for feedback. The context does not state
+    whether the introduction is appropriately detailed.
+
+    '
+  preceding_utterance: What do you think of the introduction?
+  target_utterance: The introduction is very detailed.
+  literal_interpretation: 'The speaker neutrally observes that the introduction contains a lot of detail.
+
+    '
+  implicature_interpretation: 'The speaker indirectly suggests that the introduction is too detailed.
+
+    '
+  primary_cue: contrastive_stress
+  secondary_cue: speech_rate_decrease
+  neutral_delivery: 'Use ordinary sentence stress and a normal explanatory rate.
+
+    '
+  marked_delivery: 'Place strong stress on "very detailed" and slow slightly over that phrase.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: minimal_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B027
+  generated_by: claude
+  original_item_id: MN04
+  original_maxim: manner
+  maxim_match: false
+  final_maxim: quantity
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A professor is giving feedback to a graduate student on a draft book chapter.
+
+    '
+  preceding_utterance: What did you think of chapter three?
+  target_utterance: It's got some interesting ideas in there.
+  literal_interpretation: 'The professor genuinely finds parts of the chapter interesting and is giving
+    positive feedback.
+
+    '
+  implicature_interpretation: 'The chapter has significant problems, and the vague praise is a hedge ahead
+    of harder criticism.
+
+    '
+  primary_cue: utterance_internal_pause
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'Natural, warm inflection with no unusual pausing.
+
+    '
+  marked_delivery: 'A pause before "interesting" and a compressed, narrow pitch range throughout, giving
+    a subdued tone.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B030
+  generated_by: gpt
+  original_item_id: MN09
+  original_maxim: manner
+  maxim_match: false
+  final_maxim: quality
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'Someone has cooked soup and asks another person for an immediate reaction. The context does
+    not describe the flavor.
+
+    '
+  preceding_utterance: How is the soup?
+  target_utterance: The seasoning is certainly noticeable.
+  literal_interpretation: 'The speaker neutrally observes that the seasoning is easy to notice.
+
+    '
+  implicature_interpretation: 'The speaker indirectly suggests that the seasoning is too strong.
+
+    '
+  primary_cue: word_elongation
+  secondary_cue: contrastive_stress
+  neutral_delivery: 'Say "certainly" at normal duration with ordinary stress.
+
+    '
+  marked_delivery: 'Slightly elongate "certainly" and place strong stress on "noticeable."
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: ironic_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - implicature_support=1
+- blind_id: B032
+  generated_by: gpt
+  original_item_id: QT11
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A family member returns from an appointment and is asked what happened. The context does not
+    indicate whether the appointment brought good, bad, or routine news.
+
+    '
+  preceding_utterance: What happened at the appointment?
+  target_utterance: We discussed the next steps.
+  literal_interpretation: 'The speaker gives a concise factual summary of what occurred.
+
+    '
+  implicature_interpretation: 'The speaker is intentionally withholding the substantive details of the
+    discussion.
+
+    '
+  primary_cue: reduced_final_intensity
+  secondary_cue: prosodic_boundary_placement
+  neutral_delivery: 'Use one smooth intonational phrase with steady intensity.
+
+    '
+  marked_delivery: 'Create a slight prosodic boundary before "the next steps" and lower intensity over
+    that final phrase.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: restrained_summary
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B034
+  generated_by: gpt
+  original_item_id: QL03
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A colleague has just presented a proposal to the team and asks for an immediate reaction.
+    Nothing in the context indicates how strong the proposal was.
+
+    '
+  preceding_utterance: What did you think of the proposal?
+  target_utterance: That was impressive.
+  literal_interpretation: 'The speaker sincerely considers the proposal impressive.
+
+    '
+  implicature_interpretation: 'The speaker does not actually consider the proposal impressive.
+
+    '
+  primary_cue: compressed_pitch_range
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Use a natural conversational pitch range with ordinary emphasis and a mild final
+    fall.
+
+    '
+  marked_delivery: 'Use a noticeably compressed pitch range throughout and end with a sharper final fall.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: sarcastic_praise
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B035
+  generated_by: gemini
+  original_item_id: QL08
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A family member opens a small wrapped gift box at a holiday gathering and holds up a pair
+    of plain beige socks.
+
+    '
+  preceding_utterance: I picked those out myself.
+  target_utterance: This is precisely what I was hoping to receive.
+  literal_interpretation: The gift matches the recipient's explicit hopes and desires.
+  implicature_interpretation: The gift is dull and entirely unexciting.
+  primary_cue: deadpan_voice_quality
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'Deliver with warm vocal quality, upbeat pitch movement, and slight stress on "precisely."
+
+    '
+  marked_delivery: 'Deliver in a flat, monotone deadpan voice with a tightly compressed pitch range across
+    the entire utterance.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_agreement
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B041
+  generated_by: gemini
+  original_item_id: QT08
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A home buyer asks a real estate agent about a house they just walked through together.
+
+    '
+  preceding_utterance: Did you like the kitchen and the living room layout?
+  target_utterance: The kitchen has new appliances.
+  literal_interpretation: The kitchen features recently installed appliances.
+  implicature_interpretation: The living room layout is poor or unappealing.
+  primary_cue: contrastive_stress
+  secondary_cue: prosodic_boundary_placement
+  neutral_delivery: 'Deliver fluidly as a direct observation, placing gentle stress on "appliances."
+
+    '
+  marked_delivery: 'Place sharp contrastive stress on "kitchen" and insert a distinct prosodic boundary
+    break before "has."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: soft_revision
+    reasons:
+    - implicature_plausibility=1
+    - transcript_ambiguity=1
+    - implicature_support=1
+- blind_id: B047
+  generated_by: claude
+  original_item_id: QL05
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A roommate cooks dinner for the first time and asks for feedback.
+
+    '
+  preceding_utterance: So what do you think of dinner?
+  target_utterance: This is amazing.
+  literal_interpretation: 'The speaker is genuinely impressed with the meal.
+
+    '
+  implicature_interpretation: 'The speaker is unimpressed and exaggerating enthusiasm for effect.
+
+    '
+  primary_cue: marked_final_rise
+  secondary_cue: contrastive_stress
+  neutral_delivery: 'Moderate, natural final rise with genuine warm stress on "amazing."
+
+    '
+  marked_delivery: 'Exaggerated final rise beyond the natural range, clipped contrastive stress on "amazing"
+    followed by a flat continuation.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_agreement
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B048
+  generated_by: claude
+  original_item_id: MN03
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'An employee asks their supervisor whether they could take on a particular high-profile project
+    they requested.
+
+    '
+  preceding_utterance: Do you think I could take on the Meridian project?
+  target_utterance: Let's see how the current one goes first.
+  literal_interpretation: 'The supervisor is genuinely leaving the possibility open pending the current
+    project''s progress.
+
+    '
+  implicature_interpretation: 'The supervisor is declining or indefinitely postponing the request without
+    saying so directly.
+
+    '
+  primary_cue: prosodic_boundary_placement
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Even natural phrasing with normal boundaries and a warm tone.
+
+    '
+  marked_delivery: 'A clear prosodic break after "let''s see" and quieter, trailing delivery on "first,"
+    making the statement sound conclusive.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: evasive_attribution
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B049
+  generated_by: gemini
+  original_item_id: QL13
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A mechanic checks the tire pressure on a bicycle brought in by a customer for a routine safety
+    check.
+
+    '
+  preceding_utterance: I maintained the tire pressure myself all summer.
+  target_utterance: You are a master mechanic.
+  literal_interpretation: The customer maintained the bicycle with expert technical skill.
+  implicature_interpretation: The customer did a poor job of maintaining the bicycle.
+  primary_cue: expanded_pitch_range
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Deliver with a warm, approving tone and balanced pitch contour across "master mechanic."
+
+    '
+  marked_delivery: 'Use an exaggerated, wide pitch leap on "master" followed by a steep, downward pitch
+    drop on "mechanic."
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: sarcastic_praise
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B050
+  generated_by: gemini
+  original_item_id: QT14
+  original_maxim: quantity
+  maxim_match: false
+  final_maxim: manner
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A musician asks a studio engineer how their vocal recording take sounded.
+
+    '
+  preceding_utterance: How was that last vocal take?
+  target_utterance: The microphone recorded clearly.
+  literal_interpretation: The audio equipment captured the vocal signal without technical distortion.
+  implicature_interpretation: The vocal performance itself was musically poor or off-pitch.
+  primary_cue: response_delay
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Deliver immediately with a light, informative cadence.
+
+    '
+  marked_delivery: 'Insert a deliberate two-second delay before speaking, followed by a heavy, descending
+    pitch drop on "clearly."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: evasive_attribution
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B051
+  generated_by: gpt
+  original_item_id: QL06
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A friend has suggested an activity for the weekend and asks whether the speaker is looking
+    forward to it. The speaker''s preference for the activity is unknown.
+
+    '
+  preceding_utterance: Are you excited about going?
+  target_utterance: I can hardly wait.
+  literal_interpretation: 'The speaker is genuinely very eager to go.
+
+    '
+  implicature_interpretation: 'The speaker implies that they are not actually eager to go.
+
+    '
+  primary_cue: expanded_pitch_range
+  secondary_cue: speech_rate_decrease
+  neutral_delivery: 'Use lively but natural pitch variation and a normal conversational rate.
+
+    '
+  marked_delivery: 'Use an unusually wide pitch excursion on the first half, then slow noticeably toward
+    the end.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: mock_enthusiasm
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B052
+  generated_by: gemini
+  original_item_id: QT11
+  original_maxim: quantity
+  maxim_match: false
+  final_maxim: manner
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A project sponsor asks a manager for an update on an ongoing software integration.
+
+    '
+  preceding_utterance: Is the project on schedule and within budget?
+  target_utterance: We are working on it.
+  literal_interpretation: The team is actively performing work on the integration task.
+  implicature_interpretation: The project is encountering delays or budget overruns.
+  primary_cue: word_elongation
+  secondary_cue: marked_final_rise
+  neutral_delivery: 'Deliver with an upbeat, confident tempo and steady sentence-final pitch.
+
+    '
+  marked_delivery: 'Elongate "working" and end the sentence with a slight, hesitant marked final pitch
+    rise on "it."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: hedged_assessment
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B054
+  generated_by: gpt
+  original_item_id: QL12
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A friend has just handled a practical task and asks whether the speaker thought the approach
+    worked well. The context does not reveal the outcome.
+
+    '
+  preceding_utterance: How did I handle that?
+  target_utterance: Nicely handled.
+  literal_interpretation: 'The speaker sincerely praises how the task was handled.
+
+    '
+  implicature_interpretation: 'The speaker implies that the task was not handled well.
+
+    '
+  primary_cue: deadpan_voice_quality
+  secondary_cue: response_delay
+  neutral_delivery: 'Respond promptly with natural pitch movement and ordinary warmth.
+
+    '
+  marked_delivery: 'Pause before responding, then use a consistently deadpan voice quality.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: insincere_reassurance
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B060
+  generated_by: gemini
+  original_item_id: MN15
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A research assistant asks a lead scientist if a lab report is ready for publication.
+
+    '
+  preceding_utterance: Is the manuscript ready to send to the journal editor?
+  target_utterance: The document is undergoing further refinement.
+  literal_interpretation: The text is currently being edited and polished.
+  implicature_interpretation: The manuscript has serious flaws and is far from finished.
+  primary_cue: utterance_internal_pause
+  secondary_cue: marked_final_rise
+  neutral_delivery: 'Deliver fluidly with standard cadence and assertive intonation.
+
+    '
+  marked_delivery: 'Insert a prominent pause between "undergoing" and "further," ending on a slight non-final
+    rising pitch.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B062
+  generated_by: gpt
+  original_item_id: MN11
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A colleague asks whether a set of written instructions is clear. The context does not state
+    how different readers have interpreted them.
+
+    '
+  preceding_utterance: Do these instructions seem clear?
+  target_utterance: They leave some room for interpretation.
+  literal_interpretation: 'The speaker observes that the instructions permit more than one interpretation.
+
+    '
+  implicature_interpretation: 'The speaker indirectly criticizes the instructions as too ambiguous.
+
+    '
+  primary_cue: speech_rate_decrease
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Use a normal explanatory rate and steady intensity.
+
+    '
+  marked_delivery: 'Slow slightly over "room for interpretation" and reduce intensity at the end.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: indirect_criticism
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B065
+  generated_by: gpt
+  original_item_id: QT12
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A friend has just tried a new exercise class and is asked for an overall impression. The context
+    gives no information about the class.
+
+    '
+  preceding_utterance: How was the class?
+  target_utterance: The instructor was prepared.
+  literal_interpretation: 'The speaker offers a relevant positive observation about the class.
+
+    '
+  implicature_interpretation: 'The speaker is deliberately limiting the response to one aspect rather
+    than giving a fuller evaluation.
+
+    '
+  primary_cue: prosodic_boundary_placement
+  secondary_cue: contrastive_stress
+  neutral_delivery: 'Use a single smooth phrase with ordinary sentence stress.
+
+    '
+  marked_delivery: 'Set off "the instructor" as a separate prosodic phrase and place strong stress on
+    "prepared."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B066
+  generated_by: gemini
+  original_item_id: MN12
+  original_maxim: manner
+  maxim_match: false
+  final_maxim: quantity
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A committee member asks a colleague how a policy proposal was received by management.
+
+    '
+  preceding_utterance: Did the board accept our budget proposal enthusiastically?
+  target_utterance: They noted the points we presented.
+  literal_interpretation: The board members paid attention and took note of the presentation details.
+  implicature_interpretation: The board was unimpressed or indifferent toward the proposal.
+  primary_cue: response_delay
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Deliver immediately upon being asked, using clear and audible tone.
+
+    '
+  marked_delivery: 'Pause for two seconds before answering, and reduce vocal intensity sharply across
+    "presented."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B067
+  generated_by: gpt
+  original_item_id: MN12
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A team member asks whether a proposed timeline is realistic. The context does not say whether
+    the work can actually be completed on time.
+
+    '
+  preceding_utterance: Do you think this timeline is realistic?
+  target_utterance: I would describe it as ambitious.
+  literal_interpretation: 'The speaker characterizes the timeline as demanding but potentially achievable.
+
+    '
+  implicature_interpretation: 'The speaker deliberately avoids a direct negative answer and implies that
+    the timeline is probably unrealistic.
+
+    '
+  primary_cue: response_delay
+  secondary_cue: word_elongation
+  neutral_delivery: 'Respond promptly and say "ambitious" at normal duration.
+
+    '
+  marked_delivery: 'Pause before answering and slightly elongate "ambitious."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B068
+  generated_by: claude
+  original_item_id: QT10
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A student asks a classmate how the group project grade came out.
+
+    '
+  preceding_utterance: What did we get on the project?
+  target_utterance: We passed, at least.
+  literal_interpretation: 'A simple, accurate, satisfied summary of the outcome.
+
+    '
+  implicature_interpretation: 'The outcome was worse than "passed" suggests, and further detail is being
+    withheld.
+
+    '
+  primary_cue: reduced_final_intensity
+  secondary_cue: response_delay
+  neutral_delivery: 'Prompt response with even loudness throughout.
+
+    '
+  marked_delivery: 'A delayed response with volume trailing off noticeably on "at least."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: minimal_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B070
+  generated_by: claude
+  original_item_id: MN08
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A manager is asked by a junior colleague how their recent client pitch was received internally.
+
+    '
+  preceding_utterance: How did people feel about my pitch?
+  target_utterance: There were a lot of different opinions.
+  literal_interpretation: 'A genuinely accurate report that reactions varied widely, both positive and
+    negative.
+
+    '
+  implicature_interpretation: 'An indirect way of conveying that the reception was mostly negative, without
+    stating it directly.
+
+    '
+  primary_cue: deadpan_voice_quality
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Natural, warm variability in tone reflecting genuinely mixed feedback.
+
+    '
+  marked_delivery: 'Flat, deadpan delivery throughout with a quieter, trailing ending.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: indirect_criticism
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B072
+  generated_by: gemini
+  original_item_id: MN07
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'An event organizer asks a guest speaker to adjust their talk duration for an upcoming panel.
+
+    '
+  preceding_utterance: Could you expand your talk from twenty minutes to forty minutes?
+  target_utterance: That would require a restructuring of my material.
+  literal_interpretation: Lengthening the presentation necessitates reorganizing the underlying content.
+  implicature_interpretation: I am unwilling to lengthen the presentation.
+  primary_cue: utterance_internal_pause
+  secondary_cue: marked_final_rise
+  neutral_delivery: 'Deliver as a straightforward factual statement with an even tempo.
+
+    '
+  marked_delivery: 'Insert an internal pause between "require" and "a restructuring," finishing with a
+    slight upward pitch rise on "material."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: softened_rejection
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B073
+  generated_by: gemini
+  original_item_id: QT13
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A supervisor asks an employee about a business proposal submitted to a potential client.
+
+    '
+  preceding_utterance: Did the client express interest in signing the contract?
+  target_utterance: They acknowledged receiving the document.
+  literal_interpretation: The client confirmed that the proposal document arrived in their inbox.
+  implicature_interpretation: The client showed no enthusiasm or interest in signing.
+  primary_cue: speech_rate_decrease
+  secondary_cue: compressed_pitch_range
+  neutral_delivery: 'Deliver briskly as a standard administrative update.
+
+    '
+  marked_delivery: 'Sow down the speech rate across "acknowledged receiving" using a narrow, flat pitch
+    band.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: selective_information
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B074
+  generated_by: claude
+  original_item_id: MN05
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A parent notices a broken vase in the living room and asks their two children, who were both
+    home, what happened.
+
+    '
+  preceding_utterance: Does anyone know how this vase got broken?
+  target_utterance: Things got a little chaotic in here earlier.
+  literal_interpretation: 'A genuine, uncertain observation about a busy afternoon with no specific person
+    to blame.
+
+    '
+  implicature_interpretation: 'The speaker knows more about who is responsible and is deliberately avoiding
+    naming them.
+
+    '
+  primary_cue: speech_rate_decrease
+  secondary_cue: response_delay
+  neutral_delivery: 'Even, natural pace with a prompt response.
+
+    '
+  marked_delivery: 'A slower rate with a notable delay before answering and careful, deliberate articulation.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B075
+  generated_by: claude
+  original_item_id: MN06
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A friend asks another friend whether they should invite a particular acquaintance to an upcoming
+    birthday dinner.
+
+    '
+  preceding_utterance: Should I invite Sam to the dinner?
+  target_utterance: It might get a bit crowded with everyone there.
+  literal_interpretation: 'A genuine, practical comment about venue space unrelated to Sam specifically.
+
+    '
+  implicature_interpretation: 'An indirect way of discouraging the invitation to Sam, disguised as a comment
+    about crowding.
+
+    '
+  primary_cue: contrastive_stress
+  secondary_cue: marked_final_rise
+  neutral_delivery: 'Even stress distribution with a natural falling final tone, as a straightforward
+    observation.
+
+    '
+  marked_delivery: 'Contrastive stress on "everyone," with a slight final rise suggesting something is
+    left unsaid.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: softened_rejection
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B076
+  generated_by: claude
+  original_item_id: QT03
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A manager asks an employee during a Monday check-in how much of the week''s task list was
+    completed.
+
+    '
+  preceding_utterance: How much of the list did you get through?
+  target_utterance: I did some of it.
+  literal_interpretation: 'The employee gives an honest, casual, non-specific progress update.
+
+    '
+  implicature_interpretation: 'The employee completed less than expected and is avoiding stating the exact
+    amount.
+
+    '
+  primary_cue: speech_rate_decrease
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Even pace, normal projection, casual tone.
+
+    '
+  marked_delivery: 'Slower rate with quieter delivery trailing off at the end.
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: reluctant_brevity
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B077
+  generated_by: gpt
+  original_item_id: QT08
+  original_maxim: quantity
+  final_maxim: manner
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  maxim_match: false
+  item_role: core
+  dataset_split: candidate
+  context: 'Two shop employees are reviewing the day''s business. One asks whether sales improved, and
+    both know that customer count is relevant but not identical to sales.
+
+    '
+  preceding_utterance: Did sales improve today?
+  target_utterance: We had thirty customers.
+  literal_interpretation: 'The speaker supplies a relevant measurable fact that may help assess the day''s
+    sales.
+
+    '
+  implicature_interpretation: 'The speaker is substituting a related measure for a direct answer about
+    whether sales improved.
+
+    '
+  primary_cue: response_delay
+  secondary_cue: contrastive_stress
+  neutral_delivery: 'Respond promptly and give ordinary informational stress to "thirty customers."
+
+    '
+  marked_delivery: 'Pause before answering and place unusually strong stress on "customers."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B082
+  generated_by: claude
+  original_item_id: QT08
+  original_maxim: quantity
+  maxim_match: false
+  final_maxim: manner
+  post_unblind_status: relabeled
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A partner asks whether the kitchen has been cleaned as promised earlier that day.
+
+    '
+  preceding_utterance: Did you clean the kitchen like you said?
+  target_utterance: I wiped the counters, put dishes away, and took out the recycling.
+  literal_interpretation: 'An honest, itemized account of chores completed, including cleaning the kitchen
+    among other tasks.
+
+    '
+  implicature_interpretation: 'The main cleaning was not actually done, and the itemized list is used
+    to seem thorough while avoiding the real question.
+
+    '
+  primary_cue: speech_rate_increase
+  secondary_cue: prosodic_boundary_placement
+  neutral_delivery: 'Even pace with natural pauses between listed items and a relaxed tone.
+
+    '
+  marked_delivery: 'Faster rate with items run together and minimal boundary pauses, as if reciting to
+    preempt further questions.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: evasive_attribution
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B085
+  generated_by: gpt
+  original_item_id: QT10
+  original_maxim: quantity
+  maxim_match: true
+  final_maxim: quantity
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A building manager is discussing resident feedback with a colleague. The colleague asks for
+    the scale of a complaint, but the context does not state an exact count.
+
+    '
+  preceding_utterance: How many people complained?
+  target_utterance: A few people mentioned it.
+  literal_interpretation: 'The speaker provides an ordinary approximate answer indicating a small number
+    of people.
+
+    '
+  implicature_interpretation: 'The speaker is avoiding a more precise account of how many people complained.
+
+    '
+  primary_cue: word_elongation
+  secondary_cue: response_delay
+  neutral_delivery: 'Respond promptly and say "few" at normal duration.
+
+    '
+  marked_delivery: 'Pause before speaking and slightly elongate "few."
+
+    '
+  audit:
+    assigned_maxim: quantity
+    assigned_subtype: restrained_summary
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B087
+  generated_by: gemini
+  original_item_id: MN13
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A director asks a costume designer about a dress constructed for the lead actor.
+
+    '
+  preceding_utterance: How does the costume look under the stage lights?
+  target_utterance: It certainly attracts immediate attention.
+  literal_interpretation: The costume is visually striking and easily noticed by the audience.
+  implicature_interpretation: The costume looks gaudy, distracting, or inappropriate.
+  primary_cue: word_elongation
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Deliver with an energetic tone and standard pronunciation speed.
+
+    '
+  marked_delivery: 'Elongate "attracts" and follow with a steep marked final pitch fall on "attention."
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: strategic_vagueness
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B088
+  generated_by: claude
+  original_item_id: QL11
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'Someone finishes a long hike with a friend, who asks how the trail was.
+
+    '
+  preceding_utterance: How was the trail?
+  target_utterance: It was okay.
+  literal_interpretation: 'The speaker gives a genuinely modest, mildly positive rating.
+
+    '
+  implicature_interpretation: 'The trail was extremely difficult and unpleasant, understated by the mild
+    phrasing.
+
+    '
+  primary_cue: word_elongation
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Even natural pacing with no unusual elongation and moderate, consistent volume.
+
+    '
+  marked_delivery: 'An elongated "okay" with volume trailing off toward the end.
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: hyperbolic_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B089
+  generated_by: gemini
+  original_item_id: QL11
+  original_maxim: quality
+  maxim_match: true
+  final_maxim: quality
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A passenger steps out of a commuter train car during peak evening travel hours and speaks
+    to a friend waiting on the platform.
+
+    '
+  preceding_utterance: How was the train ride over here?
+  target_utterance: It was a thoroughly delightful journey.
+  literal_interpretation: The train ride was pleasant, comfortable, and enjoyable.
+  implicature_interpretation: The train ride was uncomfortable, crowded, and miserable.
+  primary_cue: deadpan_voice_quality
+  secondary_cue: reduced_final_intensity
+  neutral_delivery: 'Deliver with a bright tone, fluid tempo, and gentle pitch elevation on "delightful."
+
+    '
+  marked_delivery: 'Deliver in an unexpressive deadpan tone, dropping final vocal intensity sharply on
+    "journey."
+
+    '
+  audit:
+    assigned_maxim: quality
+    assigned_subtype: ironic_evaluation
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 1
+    total: 17
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes
+- blind_id: B090
+  generated_by: gpt
+  original_item_id: MN06
+  original_maxim: manner
+  maxim_match: true
+  final_maxim: manner
+  post_unblind_status: retained
+  final_decision: accept
+  exclusion_reason: null
+  item_role: core
+  dataset_split: candidate
+  context: 'A writer asks a friend for feedback on a story ending. The context does not indicate whether
+    the ending is clear.
+
+    '
+  preceding_utterance: Does the ending work for you?
+  target_utterance: The ending could be clearer.
+  literal_interpretation: 'The speaker offers a mild suggestion that greater clarity might help.
+
+    '
+  implicature_interpretation: 'The speaker indirectly communicates that the ending is currently unclear.
+
+    '
+  primary_cue: word_elongation
+  secondary_cue: marked_final_fall
+  neutral_delivery: 'Keep "clearer" at normal duration with a mild final fall.
+
+    '
+  marked_delivery: 'Slightly elongate "clearer" and finish with a stronger final fall.
+
+    '
+  audit:
+    assigned_maxim: manner
+    assigned_subtype: indirect_criticism
+    neutral_plausibility: 2
+    implicature_plausibility: 2
+    context_ambiguity: 2
+    transcript_ambiguity: 2
+    maxim_specificity: 2
+    audio_contribution: 2
+    implicature_support: 2
+    naturalness: 2
+    novelty: 2
+    total: 18
+    decision: unreviewed
+    reviewer_notes: ''
+  round1_triage:
+    category: clean
+    reasons:
+    - all_round1_scores=2
+    - no_reviewer_notes

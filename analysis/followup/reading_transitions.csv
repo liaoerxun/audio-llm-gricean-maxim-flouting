@@ -1,0 +1,10 @@
+model,regime,literal_to_literal,literal_to_implicature,implicature_to_literal,implicature_to_implicature,invalid_pairs,discordant_pairs,exact_two_sided_p
+Qwen,zero_shot,0,0,0,45,0,0,1.0
+Qwen,paired_6shot,0,0,0,44,1,0,1.0
+Qwen,prosody_informed,0,0,0,43,2,0,1.0
+Kimi,zero_shot,42,2,0,1,0,2,0.5
+Kimi,paired_6shot,6,29,0,10,0,29,3.725290298461914e-09
+Kimi,prosody_informed,38,7,0,0,0,7,0.015625
+Step-Audio,zero_shot,0,5,0,40,0,5,0.0625
+Step-Audio,paired_6shot,27,0,0,1,17,0,1.0
+Step-Audio,prosody_informed,45,0,0,0,0,0,1.0

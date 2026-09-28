@@ -1,0 +1,4 @@
+model,literal_to_implicature,implicature_to_literal,literal_to_literal,implicature_to_implicature,discordant_pairs,exact_two_sided_p
+kimi-audio-7b-instruct,2,0,42,1,2,0.5
+qwen2-audio-7b-instruct,0,0,0,45,0,1.0
+step-audio-2-mini,5,0,0,40,5,0.0625

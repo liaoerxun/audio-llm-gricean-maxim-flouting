@@ -1,0 +1,271 @@
+model,item_id,gold_maxim,reading_marked_audio,reading_neutral_audio,reading_transcript_only,maxim_marked_audio,maxim_neutral_audio,maxim_transcript_only,auditory_cue_marked_audio,auditory_cue_neutral_audio,auditory_cue_transcript_only,confidence_marked_audio,confidence_neutral_audio,confidence_transcript_only,format_valid_marked_audio,format_valid_neutral_audio,format_valid_transcript_only,gold_maxim_from_dataset,context,preceding_utterance,target_utterance,neutral_marked_transition,correct_contrast,reading_invariant,marked_reading_maxim_consistent
+kimi-audio-7b-instruct,B001,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.5,1,1,1,manner,"A team member asks a coworker about who made a major error in a shared spreadsheet.
+",Do you know who altered the formula cells in column C?,Certain edits occurred late yesterday afternoon.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B048,manner,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.8,1,1,1,manner,"An employee asks their supervisor whether they could take on a particular high-profile project they requested.
+",Do you think I could take on the Meridian project?,Let's see how the current one goes first.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B050,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,manner,"A musician asks a studio engineer how their vocal recording take sounded.
+",How was that last vocal take?,The microphone recorded clearly.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B052,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.5,1,1,1,manner,"A project sponsor asks a manager for an update on an ongoing software integration.
+",Is the project on schedule and within budget?,We are working on it.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B060,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.5,1,1,1,manner,"A research assistant asks a lead scientist if a lab report is ready for publication.
+",Is the manuscript ready to send to the journal editor?,The document is undergoing further refinement.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B062,manner,literal,literal,literal,none,none,none,none,none,none,0.5,0.8,0.5,1,1,1,manner,"A colleague asks whether a set of written instructions is clear. The context does not state how different readers have interpreted them.
+",Do these instructions seem clear?,They leave some room for interpretation.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B067,manner,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.5,1,1,1,manner,"A team member asks whether a proposed timeline is realistic. The context does not say whether the work can actually be completed on time.
+",Do you think this timeline is realistic?,I would describe it as ambitious.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B070,manner,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.5,1,1,1,manner,"A manager is asked by a junior colleague how their recent client pitch was received internally.
+",How did people feel about my pitch?,There were a lot of different opinions.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B072,manner,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,0.8,1,1,1,manner,"An event organizer asks a guest speaker to adjust their talk duration for an upcoming panel.
+",Could you expand your talk from twenty minutes to forty minutes?,That would require a restructuring of my material.,implicature_to_implicature,False,True,False
+kimi-audio-7b-instruct,B074,manner,literal,literal,implicature,none,none,none,none,none,none,0.9,0.8,0.8,1,1,1,manner,"A parent notices a broken vase in the living room and asks their two children, who were both home, what happened.
+",Does anyone know how this vase got broken?,Things got a little chaotic in here earlier.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B075,manner,implicature,literal,literal,none,none,none,timing,none,none,0.8,0.8,0.8,1,1,1,manner,"A friend asks another friend whether they should invite a particular acquaintance to an upcoming birthday dinner.
+",Should I invite Sam to the dinner?,It might get a bit crowded with everyone there.,literal_to_implicature,True,False,False
+kimi-audio-7b-instruct,B077,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,manner,"Two shop employees are reviewing the day's business. One asks whether sales improved, and both know that customer count is relevant but not identical to sales.
+",Did sales improve today?,We had thirty customers.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B082,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,manner,"A partner asks whether the kitchen has been cleaned as promised earlier that day.
+",Did you clean the kitchen like you said?,"I wiped the counters, put dishes away, and took out the recycling.",literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B087,manner,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,manner,"A director asks a costume designer about a dress constructed for the lead actor.
+",How does the costume look under the stage lights?,It certainly attracts immediate attention.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B090,manner,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.8,1,1,1,manner,"A writer asks a friend for feedback on a story ending. The context does not indicate whether the ending is clear.
+",Does the ending work for you?,The ending could be clearer.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B002,quality,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.9,1,1,1,quality,"A manager asks a team member for their opinion on a new workflow proposal before a decision is finalized.
+","So, do you think this new workflow will work?","Sure, I think it could work.",literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B003,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A customer has just been shown the result of a requested customization. The context does not say whether it matches what the customer had in mind.
+",Is this what you wanted?,That's exactly what I wanted.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B004,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A customer had their washing machine serviced by a technician earlier that day, and a friend asks how it went.
+",How did it go with the technician?,Couldn't have gone better.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B006,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A parent asks their teenager whether they actually agree with newly introduced house rules.
+",Do you actually agree with the new rules?,"Yeah, I'm okay with them.",literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B022,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A home cook pulls a tray of roasted vegetables out of the oven and places it on the counter for a guest.
+",How does the seasoning taste on these?,You have truly outdone yourself this time.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B025,quality,literal,literal,literal,none,none,none,none,none,none,0.5,0.5,0.5,1,1,1,quality,"A friend has just told the speaker about an unexpected change of plans. The context does not indicate how consequential or surprising the change was.
+",Were you surprised when you heard?,It was a small surprise.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B030,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"Someone has cooked soup and asks another person for an immediate reaction. The context does not describe the flavor.
+",How is the soup?,The seasoning is certainly noticeable.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B034,quality,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.5,1,1,1,quality,"A colleague has just presented a proposal to the team and asks for an immediate reaction. Nothing in the context indicates how strong the proposal was.
+",What did you think of the proposal?,That was impressive.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B035,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.8,1,1,1,quality,"A family member opens a small wrapped gift box at a holiday gathering and holds up a pair of plain beige socks.
+",I picked those out myself.,This is precisely what I was hoping to receive.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B047,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A roommate cooks dinner for the first time and asks for feedback.
+",So what do you think of dinner?,This is amazing.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B049,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quality,"A mechanic checks the tire pressure on a bicycle brought in by a customer for a routine safety check.
+",I maintained the tire pressure myself all summer.,You are a master mechanic.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B051,quality,literal,literal,literal,none,none,none,none,none,none,0.5,0.8,0.5,1,1,1,quality,"A friend has suggested an activity for the weekend and asks whether the speaker is looking forward to it. The speaker's preference for the activity is unknown.
+",Are you excited about going?,I can hardly wait.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B054,quality,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.9,1,1,1,quality,"A friend has just handled a practical task and asks whether the speaker thought the approach worked well. The context does not reveal the outcome.
+",How did I handle that?,Nicely handled.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B088,quality,literal,literal,literal,none,none,none,none,none,none,0.5,0.5,0.8,1,1,1,quality,"Someone finishes a long hike with a friend, who asks how the trail was.
+",How was the trail?,It was okay.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B089,quality,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.8,1,1,1,quality,"A passenger steps out of a commuter train car during peak evening travel hours and speaks to a friend waiting on the platform.
+",How was the train ride over here?,It was a thoroughly delightful journey.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B009,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quantity,"A client asks a freelance graphic designer about a newly submitted logo concept.
+",What do you think of the new logo layout?,It fits the width requirements.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B012,quantity,literal,literal,literal,none,none,none,none,none,none,0.5,0.5,0.5,1,1,1,quantity,"A person has just returned from a social outing. Their friend knows only that the outing took place.
+",How did the evening go?,It went okay.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B013,quantity,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.9,1,1,1,quantity,"A colleague asks another colleague what they thought of a presentation given at a team meeting.
+",What did you think of the presentation?,It covered the material.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B014,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quantity,"A parent asks their child, just back from a school trip, what happened during the day.
+",What happened on the trip today?,We visited the museum and had lunch.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B024,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quantity,"A customer asks a mechanic for an overall assessment of their car after a routine inspection.
+","So, how's the car looking overall?",Nothing urgent right now.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B026,quantity,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.9,1,1,1,quantity,"A classmate has shared a draft introduction and asks for feedback. The context does not state whether the introduction is appropriately detailed.
+",What do you think of the introduction?,The introduction is very detailed.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B027,quantity,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.8,1,1,1,quantity,"A professor is giving feedback to a graduate student on a draft book chapter.
+",What did you think of chapter three?,It's got some interesting ideas in there.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B032,quantity,literal,literal,literal,none,none,none,none,none,none,0.5,0.5,0.5,1,1,1,quantity,"A family member returns from an appointment and is asked what happened. The context does not indicate whether the appointment brought good, bad, or routine news.
+",What happened at the appointment?,We discussed the next steps.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B041,quantity,implicature,literal,literal,none,none,none,timing,none,none,0.9,0.9,0.9,1,1,1,quantity,"A home buyer asks a real estate agent about a house they just walked through together.
+",Did you like the kitchen and the living room layout?,The kitchen has new appliances.,literal_to_implicature,True,False,False
+kimi-audio-7b-instruct,B065,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quantity,"A friend has just tried a new exercise class and is asked for an overall impression. The context gives no information about the class.
+",How was the class?,The instructor was prepared.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B066,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.8,1,1,1,quantity,"A committee member asks a colleague how a policy proposal was received by management.
+",Did the board accept our budget proposal enthusiastically?,They noted the points we presented.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B068,quantity,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.9,1,1,1,quantity,"A student asks a classmate how the group project grade came out.
+",What did we get on the project?,"We passed, at least.",literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B073,quantity,literal,literal,literal,none,none,none,none,none,none,0.9,0.9,0.9,1,1,1,quantity,"A supervisor asks an employee about a business proposal submitted to a potential client.
+",Did the client express interest in signing the contract?,They acknowledged receiving the document.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B076,quantity,literal,literal,literal,none,none,none,none,none,none,0.8,0.8,0.5,1,1,1,quantity,"A manager asks an employee during a Monday check-in how much of the week's task list was completed.
+",How much of the list did you get through?,I did some of it.,literal_to_literal,False,True,True
+kimi-audio-7b-instruct,B085,quantity,literal,literal,literal,none,none,none,none,none,none,0.5,0.8,0.8,1,1,1,quantity,"A building manager is discussing resident feedback with a colleague. The colleague asks for the scale of a complaint, but the context does not state an exact count.
+",How many people complained?,A few people mentioned it.,literal_to_literal,False,True,True
+qwen2-audio-7b-instruct,B001,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A team member asks a coworker about who made a major error in a shared spreadsheet.
+",Do you know who altered the formula cells in column C?,Certain edits occurred late yesterday afternoon.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B048,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"An employee asks their supervisor whether they could take on a particular high-profile project they requested.
+",Do you think I could take on the Meridian project?,Let's see how the current one goes first.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B050,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A musician asks a studio engineer how their vocal recording take sounded.
+",How was that last vocal take?,The microphone recorded clearly.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B052,manner,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A project sponsor asks a manager for an update on an ongoing software integration.
+",Is the project on schedule and within budget?,We are working on it.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B060,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A research assistant asks a lead scientist if a lab report is ready for publication.
+",Is the manuscript ready to send to the journal editor?,The document is undergoing further refinement.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B062,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A colleague asks whether a set of written instructions is clear. The context does not state how different readers have interpreted them.
+",Do these instructions seem clear?,They leave some room for interpretation.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B067,manner,implicature,implicature,implicature,quality,quality,ambition,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,0,manner,"A team member asks whether a proposed timeline is realistic. The context does not say whether the work can actually be completed on time.
+",Do you think this timeline is realistic?,I would describe it as ambitious.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B070,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A manager is asked by a junior colleague how their recent client pitch was received internally.
+",How did people feel about my pitch?,There were a lot of different opinions.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B072,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"An event organizer asks a guest speaker to adjust their talk duration for an upcoming panel.
+",Could you expand your talk from twenty minutes to forty minutes?,That would require a restructuring of my material.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B074,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A parent notices a broken vase in the living room and asks their two children, who were both home, what happened.
+",Does anyone know how this vase got broken?,Things got a little chaotic in here earlier.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B075,manner,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A friend asks another friend whether they should invite a particular acquaintance to an upcoming birthday dinner.
+",Should I invite Sam to the dinner?,It might get a bit crowded with everyone there.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B077,manner,implicature,implicature,implicature,quality,quality,quantity,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"Two shop employees are reviewing the day's business. One asks whether sales improved, and both know that customer count is relevant but not identical to sales.
+",Did sales improve today?,We had thirty customers.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B082,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A partner asks whether the kitchen has been cleaned as promised earlier that day.
+",Did you clean the kitchen like you said?,"I wiped the counters, put dishes away, and took out the recycling.",implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B087,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,manner,"A director asks a costume designer about a dress constructed for the lead actor.
+",How does the costume look under the stage lights?,It certainly attracts immediate attention.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B090,manner,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.75,0.8,0.8,1,1,1,manner,"A writer asks a friend for feedback on a story ending. The context does not indicate whether the ending is clear.
+",Does the ending work for you?,The ending could be clearer.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B002,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A manager asks a team member for their opinion on a new workflow proposal before a decision is finalized.
+","So, do you think this new workflow will work?","Sure, I think it could work.",implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B003,quality,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A customer has just been shown the result of a requested customization. The context does not say whether it matches what the customer had in mind.
+",Is this what you wanted?,That's exactly what I wanted.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B004,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A customer had their washing machine serviced by a technician earlier that day, and a friend asks how it went.
+",How did it go with the technician?,Couldn't have gone better.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B006,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A parent asks their teenager whether they actually agree with newly introduced house rules.
+",Do you actually agree with the new rules?,"Yeah, I'm okay with them.",implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B022,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A home cook pulls a tray of roasted vegetables out of the oven and places it on the counter for a guest.
+",How does the seasoning taste on these?,You have truly outdone yourself this time.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B025,quality,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A friend has just told the speaker about an unexpected change of plans. The context does not indicate how consequential or surprising the change was.
+",Were you surprised when you heard?,It was a small surprise.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B030,quality,implicature,implicature,implicature,quality,none,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"Someone has cooked soup and asks another person for an immediate reaction. The context does not describe the flavor.
+",How is the soup?,The seasoning is certainly noticeable.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B034,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A colleague has just presented a proposal to the team and asks for an immediate reaction. Nothing in the context indicates how strong the proposal was.
+",What did you think of the proposal?,That was impressive.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B035,quality,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A family member opens a small wrapped gift box at a holiday gathering and holds up a pair of plain beige socks.
+",I picked those out myself.,This is precisely what I was hoping to receive.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B047,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A roommate cooks dinner for the first time and asks for feedback.
+",So what do you think of dinner?,This is amazing.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B049,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A mechanic checks the tire pressure on a bicycle brought in by a customer for a routine safety check.
+",I maintained the tire pressure myself all summer.,You are a master mechanic.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B051,quality,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A friend has suggested an activity for the weekend and asks whether the speaker is looking forward to it. The speaker's preference for the activity is unknown.
+",Are you excited about going?,I can hardly wait.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B054,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A friend has just handled a practical task and asks whether the speaker thought the approach worked well. The context does not reveal the outcome.
+",How did I handle that?,Nicely handled.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B088,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"Someone finishes a long hike with a friend, who asks how the trail was.
+",How was the trail?,It was okay.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B089,quality,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quality,"A passenger steps out of a commuter train car during peak evening travel hours and speaks to a friend waiting on the platform.
+",How was the train ride over here?,It was a thoroughly delightful journey.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B009,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A client asks a freelance graphic designer about a newly submitted logo concept.
+",What do you think of the new logo layout?,It fits the width requirements.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B012,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A person has just returned from a social outing. Their friend knows only that the outing took place.
+",How did the evening go?,It went okay.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B013,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A colleague asks another colleague what they thought of a presentation given at a team meeting.
+",What did you think of the presentation?,It covered the material.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B014,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A parent asks their child, just back from a school trip, what happened during the day.
+",What happened on the trip today?,We visited the museum and had lunch.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B024,quantity,implicature,implicature,implicature,none,none,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A customer asks a mechanic for an overall assessment of their car after a routine inspection.
+","So, how's the car looking overall?",Nothing urgent right now.,implicature_to_implicature,False,True,False
+qwen2-audio-7b-instruct,B026,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A classmate has shared a draft introduction and asks for feedback. The context does not state whether the introduction is appropriately detailed.
+",What do you think of the introduction?,The introduction is very detailed.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B027,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.7,1,1,1,quantity,"A professor is giving feedback to a graduate student on a draft book chapter.
+",What did you think of chapter three?,It's got some interesting ideas in there.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B032,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A family member returns from an appointment and is asked what happened. The context does not indicate whether the appointment brought good, bad, or routine news.
+",What happened at the appointment?,We discussed the next steps.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B041,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A home buyer asks a real estate agent about a house they just walked through together.
+",Did you like the kitchen and the living room layout?,The kitchen has new appliances.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B065,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.7,1,1,1,quantity,"A friend has just tried a new exercise class and is asked for an overall impression. The context gives no information about the class.
+",How was the class?,The instructor was prepared.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B066,quantity,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A committee member asks a colleague how a policy proposal was received by management.
+",Did the board accept our budget proposal enthusiastically?,They noted the points we presented.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B068,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A student asks a classmate how the group project grade came out.
+",What did we get on the project?,"We passed, at least.",implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B073,quantity,implicature,implicature,implicature,quality,quality,none,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A supervisor asks an employee about a business proposal submitted to a potential client.
+",Did the client express interest in signing the contract?,They acknowledged receiving the document.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B076,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A manager asks an employee during a Monday check-in how much of the week's task list was completed.
+",How much of the list did you get through?,I did some of it.,implicature_to_implicature,False,True,True
+qwen2-audio-7b-instruct,B085,quantity,implicature,implicature,implicature,quality,quality,quality,speech_rate,speech_rate,none,0.8,0.8,0.8,1,1,1,quantity,"A building manager is discussing resident feedback with a colleague. The colleague asks for the scale of a complaint, but the context does not state an exact count.
+",How many people complained?,A few people mentioned it.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B001,manner,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,manner,"A team member asks a coworker about who made a major error in a shared spreadsheet.
+",Do you know who altered the formula cells in column C?,Certain edits occurred late yesterday afternoon.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B048,manner,implicature,implicature,implicature,none,none,quantity,timing,timing,none,0.9,0.9,0.9,1,1,1,manner,"An employee asks their supervisor whether they could take on a particular high-profile project they requested.
+",Do you think I could take on the Meridian project?,Let's see how the current one goes first.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B050,manner,implicature,literal,literal,none,none,none,stress,none,none,0.9,1.0,1.0,1,1,1,manner,"A musician asks a studio engineer how their vocal recording take sounded.
+",How was that last vocal take?,The microphone recorded clearly.,literal_to_implicature,True,False,False
+step-audio-2-mini,B052,manner,implicature,implicature,implicature,none,none,quantity,timing,timing,none,0.8,0.8,0.9,1,1,1,manner,"A project sponsor asks a manager for an update on an ongoing software integration.
+",Is the project on schedule and within budget?,We are working on it.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B060,manner,implicature,implicature,implicature,none,none,manner,timing,timing,none,0.9,0.9,0.9,1,1,1,manner,"A research assistant asks a lead scientist if a lab report is ready for publication.
+",Is the manuscript ready to send to the journal editor?,The document is undergoing further refinement.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B062,manner,implicature,implicature,implicature,none,none,none,timing,timing,none,0.8,0.8,0.9,1,1,1,manner,"A colleague asks whether a set of written instructions is clear. The context does not state how different readers have interpreted them.
+",Do these instructions seem clear?,They leave some room for interpretation.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B067,manner,implicature,implicature,implicature,manner,none,manner,multiple,timing,none,0.8,0.9,0.9,1,1,1,manner,"A team member asks whether a proposed timeline is realistic. The context does not say whether the work can actually be completed on time.
+",Do you think this timeline is realistic?,I would describe it as ambitious.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B070,manner,implicature,implicature,implicature,none,none,quantity,timing,timing,none,0.9,0.8,0.8,1,1,1,manner,"A manager is asked by a junior colleague how their recent client pitch was received internally.
+",How did people feel about my pitch?,There were a lot of different opinions.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B072,manner,implicature,implicature,implicature,quantity,quantity,quantity,timing,timing,none,0.9,0.9,0.9,1,1,1,manner,"An event organizer asks a guest speaker to adjust their talk duration for an upcoming panel.
+",Could you expand your talk from twenty minutes to forty minutes?,That would require a restructuring of my material.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B074,manner,implicature,implicature,implicature,none,none,none,timing,timing,none,0.9,0.9,0.9,1,1,1,manner,"A parent notices a broken vase in the living room and asks their two children, who were both home, what happened.
+",Does anyone know how this vase got broken?,Things got a little chaotic in here earlier.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B075,manner,implicature,implicature,implicature,quantity,quantity,quantity,timing,timing,none,0.9,0.8,0.9,1,1,1,manner,"A friend asks another friend whether they should invite a particular acquaintance to an upcoming birthday dinner.
+",Should I invite Sam to the dinner?,It might get a bit crowded with everyone there.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B077,manner,implicature,implicature,literal,quantity,quantity,none,timing,timing,none,0.8,0.8,1.0,1,1,1,manner,"Two shop employees are reviewing the day's business. One asks whether sales improved, and both know that customer count is relevant but not identical to sales.
+",Did sales improve today?,We had thirty customers.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B082,manner,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,manner,"A partner asks whether the kitchen has been cleaned as promised earlier that day.
+",Did you clean the kitchen like you said?,"I wiped the counters, put dishes away, and took out the recycling.",implicature_to_implicature,False,True,False
+step-audio-2-mini,B087,manner,implicature,implicature,implicature,none,none,manner,stress,timing,none,0.9,0.9,0.9,1,1,1,manner,"A director asks a costume designer about a dress constructed for the lead actor.
+",How does the costume look under the stage lights?,It certainly attracts immediate attention.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B090,manner,implicature,implicature,implicature,none,none,quality,stress,timing,none,0.8,0.8,0.9,1,1,1,manner,"A writer asks a friend for feedback on a story ending. The context does not indicate whether the ending is clear.
+",Does the ending work for you?,The ending could be clearer.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B002,quality,implicature,implicature,literal,none,none,none,multiple,timing,none,0.8,0.8,1.0,1,1,1,quality,"A manager asks a team member for their opinion on a new workflow proposal before a decision is finalized.
+","So, do you think this new workflow will work?","Sure, I think it could work.",implicature_to_implicature,False,True,False
+step-audio-2-mini,B003,quality,implicature,implicature,implicature,none,none,quality,stress,stress,none,0.9,0.9,0.9,1,1,1,quality,"A customer has just been shown the result of a requested customization. The context does not say whether it matches what the customer had in mind.
+",Is this what you wanted?,That's exactly what I wanted.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B004,quality,implicature,implicature,implicature,quality,quality,quality,stress,stress,none,0.9,0.9,0.9,1,1,1,quality,"A customer had their washing machine serviced by a technician earlier that day, and a friend asks how it went.
+",How did it go with the technician?,Couldn't have gone better.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B006,quality,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quality,"A parent asks their teenager whether they actually agree with newly introduced house rules.
+",Do you actually agree with the new rules?,"Yeah, I'm okay with them.",implicature_to_implicature,False,True,False
+step-audio-2-mini,B022,quality,implicature,implicature,implicature,none,none,quality,stress,timing,none,0.9,0.9,0.9,1,1,1,quality,"A home cook pulls a tray of roasted vegetables out of the oven and places it on the counter for a guest.
+",How does the seasoning taste on these?,You have truly outdone yourself this time.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B025,quality,implicature,implicature,literal,none,none,none,timing,timing,none,0.8,0.8,0.9,1,1,1,quality,"A friend has just told the speaker about an unexpected change of plans. The context does not indicate how consequential or surprising the change was.
+",Were you surprised when you heard?,It was a small surprise.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B030,quality,implicature,implicature,implicature,none,none,quality,stress,stress,none,0.9,0.9,0.9,1,1,1,quality,"Someone has cooked soup and asks another person for an immediate reaction. The context does not describe the flavor.
+",How is the soup?,The seasoning is certainly noticeable.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B034,quality,implicature,implicature,literal,none,none,none,stress,stress,none,0.9,0.9,1.0,1,1,1,quality,"A colleague has just presented a proposal to the team and asks for an immediate reaction. Nothing in the context indicates how strong the proposal was.
+",What did you think of the proposal?,That was impressive.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B035,quality,implicature,implicature,implicature,none,none,none,timing,timing,none,0.9,0.9,0.9,1,1,1,quality,"A family member opens a small wrapped gift box at a holiday gathering and holds up a pair of plain beige socks.
+",I picked those out myself.,This is precisely what I was hoping to receive.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B047,quality,implicature,implicature,literal,quality,quality,none,stress,stress,none,0.9,0.9,1.0,1,1,1,quality,"A roommate cooks dinner for the first time and asks for feedback.
+",So what do you think of dinner?,This is amazing.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B049,quality,implicature,implicature,implicature,none,none,manner,pitch,stress,none,0.9,0.9,0.9,1,1,1,quality,"A mechanic checks the tire pressure on a bicycle brought in by a customer for a routine safety check.
+",I maintained the tire pressure myself all summer.,You are a master mechanic.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B051,quality,implicature,implicature,implicature,none,none,none,pitch,timing,none,0.9,0.9,0.9,1,1,1,quality,"A friend has suggested an activity for the weekend and asks whether the speaker is looking forward to it. The speaker's preference for the activity is unknown.
+",Are you excited about going?,I can hardly wait.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B054,quality,implicature,implicature,literal,none,manner,none,timing,stress,none,0.8,0.8,0.9,1,1,1,quality,"A friend has just handled a practical task and asks whether the speaker thought the approach worked well. The context does not reveal the outcome.
+",How did I handle that?,Nicely handled.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B088,quality,implicature,literal,literal,none,none,none,timing,none,none,0.8,1.0,1.0,1,1,1,quality,"Someone finishes a long hike with a friend, who asks how the trail was.
+",How was the trail?,It was okay.,literal_to_implicature,True,False,False
+step-audio-2-mini,B089,quality,implicature,implicature,literal,quality,none,none,stress,timing,none,0.9,0.9,1.0,1,1,1,quality,"A passenger steps out of a commuter train car during peak evening travel hours and speaks to a friend waiting on the platform.
+",How was the train ride over here?,It was a thoroughly delightful journey.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B009,quantity,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A client asks a freelance graphic designer about a newly submitted logo concept.
+",What do you think of the new logo layout?,It fits the width requirements.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B012,quantity,implicature,literal,literal,none,none,none,multiple,timing,none,0.9,1.0,0.9,1,1,1,quantity,"A person has just returned from a social outing. Their friend knows only that the outing took place.
+",How did the evening go?,It went okay.,literal_to_implicature,True,False,False
+step-audio-2-mini,B013,quantity,implicature,literal,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A colleague asks another colleague what they thought of a presentation given at a team meeting.
+",What did you think of the presentation?,It covered the material.,literal_to_implicature,True,False,False
+step-audio-2-mini,B014,quantity,implicature,implicature,literal,none,none,none,multiple,timing,none,0.8,0.9,1.0,1,1,1,quantity,"A parent asks their child, just back from a school trip, what happened during the day.
+",What happened on the trip today?,We visited the museum and had lunch.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B024,quantity,implicature,literal,literal,none,none,none,timing,none,none,0.8,1.0,1.0,1,1,1,quantity,"A customer asks a mechanic for an overall assessment of their car after a routine inspection.
+","So, how's the car looking overall?",Nothing urgent right now.,literal_to_implicature,True,False,False
+step-audio-2-mini,B026,quantity,implicature,implicature,literal,quality,quality,none,stress,stress,none,0.9,0.9,1.0,1,1,1,quantity,"A classmate has shared a draft introduction and asks for feedback. The context does not state whether the introduction is appropriately detailed.
+",What do you think of the introduction?,The introduction is very detailed.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B027,quantity,implicature,implicature,literal,manner,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A professor is giving feedback to a graduate student on a draft book chapter.
+",What did you think of chapter three?,It's got some interesting ideas in there.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B032,quantity,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A family member returns from an appointment and is asked what happened. The context does not indicate whether the appointment brought good, bad, or routine news.
+",What happened at the appointment?,We discussed the next steps.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B041,quantity,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A home buyer asks a real estate agent about a house they just walked through together.
+",Did you like the kitchen and the living room layout?,The kitchen has new appliances.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B065,quantity,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A friend has just tried a new exercise class and is asked for an overall impression. The context gives no information about the class.
+",How was the class?,The instructor was prepared.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B066,quantity,implicature,implicature,implicature,none,none,quantity,timing,timing,none,0.9,0.9,0.9,1,1,1,quantity,"A committee member asks a colleague how a policy proposal was received by management.
+",Did the board accept our budget proposal enthusiastically?,They noted the points we presented.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B068,quantity,implicature,implicature,implicature,none,none,none,timing,timing,none,0.9,0.9,0.9,1,1,1,quantity,"A student asks a classmate how the group project grade came out.
+",What did we get on the project?,"We passed, at least.",implicature_to_implicature,False,True,False
+step-audio-2-mini,B073,quantity,implicature,implicature,literal,none,none,none,timing,timing,none,0.9,0.9,1.0,1,1,1,quantity,"A supervisor asks an employee about a business proposal submitted to a potential client.
+",Did the client express interest in signing the contract?,They acknowledged receiving the document.,implicature_to_implicature,False,True,False
+step-audio-2-mini,B076,quantity,implicature,implicature,literal,quantity,quantity,none,timing,timing,none,0.8,0.9,1.0,1,1,1,quantity,"A manager asks an employee during a Monday check-in how much of the week's task list was completed.
+",How much of the list did you get through?,I did some of it.,implicature_to_implicature,False,True,True
+step-audio-2-mini,B085,quantity,implicature,implicature,implicature,quantity,quantity,quantity,timing,timing,none,0.8,0.8,0.9,1,1,1,quantity,"A building manager is discussing resident feedback with a colleague. The colleague asks for the scale of a complaint, but the context does not state an exact count.
+",How many people complained?,A few people mentioned it.,implicature_to_implicature,False,True,True

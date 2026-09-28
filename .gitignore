@@ -1,0 +1,55 @@
+
+# Python environments
+.venv/
+.venv-analysis/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE / AI assistant
+.vscode/
+.idea/
+.claude/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*.json
+*credentials*.json
+
+# Hugging Face / model cache
+.cache/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Third-party model repositories
+Kimi-Audio/
+Step-Audio2/
+
+# Local experiment audio
+pilot_audio/
+target_audio/
+
+# Temporary outputs
+outputs/
+
+# Historical code backups
+*.before_*
+*.text_before_audio
+
+# Temporary files
+*.log
+*.tmp
+*.bak

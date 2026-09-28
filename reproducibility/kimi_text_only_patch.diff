@@ -1,0 +1,19 @@
+diff --git a/kimia_infer/api/kimia.py b/kimia_infer/api/kimia.py
+index 62db7c0..267da76 100644
+--- a/kimia_infer/api/kimia.py
++++ b/kimia_infer/api/kimia.py
+@@ -244,7 +244,13 @@ class KimiAudio(object):
+         audio_input_ids = audio_input_ids.to(torch.cuda.current_device())
+         text_input_ids = text_input_ids.to(torch.cuda.current_device())
+         is_continuous_mask = is_continuous_mask.to(torch.cuda.current_device())
+-        audio_features = [f.to(torch.cuda.current_device()) for f in audio_features]
++
++        audio_features = (
++            [f.to(torch.cuda.current_device()) for f in audio_features]
++            if audio_features
++            else None
++        )
++
+ 
+         generated_wav_tokens, generated_text_tokens = self._generate_loop(
+             audio_input_ids=audio_input_ids,

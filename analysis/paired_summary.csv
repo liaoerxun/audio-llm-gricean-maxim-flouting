@@ -1,0 +1,4 @@
+model,paired_items,correct_neutral_marked_contrast_n,correct_neutral_marked_contrast_rate
+kimi-audio-7b-instruct,45,2,0.044444444444444446
+qwen2-audio-7b-instruct,45,0,0.0
+step-audio-2-mini,45,5,0.1111111111111111

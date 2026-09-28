@@ -1,0 +1,10 @@
+model,condition,valid_pairs,consistent_n,consistency_rate
+kimi-audio-7b-instruct,marked_audio,45,42,0.9333333333333333
+kimi-audio-7b-instruct,neutral_audio,45,44,0.9777777777777777
+kimi-audio-7b-instruct,transcript_only,45,44,0.9777777777777777
+qwen2-audio-7b-instruct,marked_audio,45,44,0.9777777777777777
+qwen2-audio-7b-instruct,neutral_audio,45,43,0.9555555555555556
+qwen2-audio-7b-instruct,transcript_only,44,35,0.7954545454545454
+step-audio-2-mini,marked_audio,45,11,0.24444444444444444
+step-audio-2-mini,neutral_audio,45,14,0.3111111111111111
+step-audio-2-mini,transcript_only,45,40,0.8888888888888888

@@ -1,0 +1,736 @@
+{
+  "status": "passed",
+  "dataset": "target_items.yaml",
+  "dataset_sha256": "142a3f61d4606ad0764783644103400d0f3a1d809b5c80f0daf9f036709a0e9c",
+  "item_count": 45,
+  "task_count": 135,
+  "audio_file_count": 90,
+  "maxim_counts": {
+    "manner": 15,
+    "quality": 15,
+    "quantity": 15
+  },
+  "errors": [],
+  "files": [
+    {
+      "task_id": "B001::neutral_audio",
+      "path": "target_audio/B001_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.678
+    },
+    {
+      "task_id": "B001::marked_audio",
+      "path": "target_audio/B001_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.793
+    },
+    {
+      "task_id": "B002::neutral_audio",
+      "path": "target_audio/B002_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.749
+    },
+    {
+      "task_id": "B002::marked_audio",
+      "path": "target_audio/B002_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.957
+    },
+    {
+      "task_id": "B003::neutral_audio",
+      "path": "target_audio/B003_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.656
+    },
+    {
+      "task_id": "B003::marked_audio",
+      "path": "target_audio/B003_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.585
+    },
+    {
+      "task_id": "B004::neutral_audio",
+      "path": "target_audio/B004_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.471
+    },
+    {
+      "task_id": "B004::marked_audio",
+      "path": "target_audio/B004_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.307
+    },
+    {
+      "task_id": "B006::neutral_audio",
+      "path": "target_audio/B006_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.842
+    },
+    {
+      "task_id": "B006::marked_audio",
+      "path": "target_audio/B006_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.214
+    },
+    {
+      "task_id": "B009::neutral_audio",
+      "path": "target_audio/B009_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B009::marked_audio",
+      "path": "target_audio/B009_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.093
+    },
+    {
+      "task_id": "B012::neutral_audio",
+      "path": "target_audio/B012_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.749
+    },
+    {
+      "task_id": "B012::marked_audio",
+      "path": "target_audio/B012_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B013::neutral_audio",
+      "path": "target_audio/B013_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.378
+    },
+    {
+      "task_id": "B013::marked_audio",
+      "path": "target_audio/B013_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.793
+    },
+    {
+      "task_id": "B014::neutral_audio",
+      "path": "target_audio/B014_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.214
+    },
+    {
+      "task_id": "B014::marked_audio",
+      "path": "target_audio/B014_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.536
+    },
+    {
+      "task_id": "B022::neutral_audio",
+      "path": "target_audio/B022_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.678
+    },
+    {
+      "task_id": "B022::marked_audio",
+      "path": "target_audio/B022_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.235
+    },
+    {
+      "task_id": "B024::neutral_audio",
+      "path": "target_audio/B024_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B024::marked_audio",
+      "path": "target_audio/B024_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.443
+    },
+    {
+      "task_id": "B025::neutral_audio",
+      "path": "target_audio/B025_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.028
+    },
+    {
+      "task_id": "B025::marked_audio",
+      "path": "target_audio/B025_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.328
+    },
+    {
+      "task_id": "B026::neutral_audio",
+      "path": "target_audio/B026_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.585
+    },
+    {
+      "task_id": "B026::marked_audio",
+      "path": "target_audio/B026_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.071
+    },
+    {
+      "task_id": "B027::neutral_audio",
+      "path": "target_audio/B027_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.307
+    },
+    {
+      "task_id": "B027::marked_audio",
+      "path": "target_audio/B027_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.0
+    },
+    {
+      "task_id": "B030::neutral_audio",
+      "path": "target_audio/B030_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B030::marked_audio",
+      "path": "target_audio/B030_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.071
+    },
+    {
+      "task_id": "B032::neutral_audio",
+      "path": "target_audio/B032_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.842
+    },
+    {
+      "task_id": "B032::marked_audio",
+      "path": "target_audio/B032_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.957
+    },
+    {
+      "task_id": "B034::neutral_audio",
+      "path": "target_audio/B034_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.749
+    },
+    {
+      "task_id": "B034::marked_audio",
+      "path": "target_audio/B034_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.721
+    },
+    {
+      "task_id": "B035::neutral_audio",
+      "path": "target_audio/B035_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.864
+    },
+    {
+      "task_id": "B035::marked_audio",
+      "path": "target_audio/B035_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 7.208
+    },
+    {
+      "task_id": "B041::neutral_audio",
+      "path": "target_audio/B041_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.214
+    },
+    {
+      "task_id": "B041::marked_audio",
+      "path": "target_audio/B041_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.886
+    },
+    {
+      "task_id": "B047::neutral_audio",
+      "path": "target_audio/B047_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.378
+    },
+    {
+      "task_id": "B047::marked_audio",
+      "path": "target_audio/B047_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B048::neutral_audio",
+      "path": "target_audio/B048_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.307
+    },
+    {
+      "task_id": "B048::marked_audio",
+      "path": "target_audio/B048_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.514
+    },
+    {
+      "task_id": "B049::neutral_audio",
+      "path": "target_audio/B049_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B049::marked_audio",
+      "path": "target_audio/B049_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B050::neutral_audio",
+      "path": "target_audio/B050_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.749
+    },
+    {
+      "task_id": "B050::marked_audio",
+      "path": "target_audio/B050_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.093
+    },
+    {
+      "task_id": "B051::neutral_audio",
+      "path": "target_audio/B051_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.285
+    },
+    {
+      "task_id": "B051::marked_audio",
+      "path": "target_audio/B051_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.793
+    },
+    {
+      "task_id": "B052::neutral_audio",
+      "path": "target_audio/B052_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.378
+    },
+    {
+      "task_id": "B052::marked_audio",
+      "path": "target_audio/B052_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.235
+    },
+    {
+      "task_id": "B054::neutral_audio",
+      "path": "target_audio/B054_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.099
+    },
+    {
+      "task_id": "B054::marked_audio",
+      "path": "target_audio/B054_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.678
+    },
+    {
+      "task_id": "B060::neutral_audio",
+      "path": "target_audio/B060_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.142
+    },
+    {
+      "task_id": "B060::marked_audio",
+      "path": "target_audio/B060_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.186
+    },
+    {
+      "task_id": "B062::neutral_audio",
+      "path": "target_audio/B062_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B062::marked_audio",
+      "path": "target_audio/B062_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.607
+    },
+    {
+      "task_id": "B065::neutral_audio",
+      "path": "target_audio/B065_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B065::marked_audio",
+      "path": "target_audio/B065_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.7
+    },
+    {
+      "task_id": "B066::neutral_audio",
+      "path": "target_audio/B066_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.307
+    },
+    {
+      "task_id": "B066::marked_audio",
+      "path": "target_audio/B066_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.557
+    },
+    {
+      "task_id": "B067::neutral_audio",
+      "path": "target_audio/B067_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.028
+    },
+    {
+      "task_id": "B067::marked_audio",
+      "path": "target_audio/B067_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.0
+    },
+    {
+      "task_id": "B068::neutral_audio",
+      "path": "target_audio/B068_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.285
+    },
+    {
+      "task_id": "B068::marked_audio",
+      "path": "target_audio/B068_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.957
+    },
+    {
+      "task_id": "B070::neutral_audio",
+      "path": "target_audio/B070_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.121
+    },
+    {
+      "task_id": "B070::marked_audio",
+      "path": "target_audio/B070_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.678
+    },
+    {
+      "task_id": "B072::neutral_audio",
+      "path": "target_audio/B072_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B072::marked_audio",
+      "path": "target_audio/B072_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 6.093
+    },
+    {
+      "task_id": "B073::neutral_audio",
+      "path": "target_audio/B073_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B073::marked_audio",
+      "path": "target_audio/B073_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.514
+    },
+    {
+      "task_id": "B074::neutral_audio",
+      "path": "target_audio/B074_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.214
+    },
+    {
+      "task_id": "B074::marked_audio",
+      "path": "target_audio/B074_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 5.35
+    },
+    {
+      "task_id": "B075::neutral_audio",
+      "path": "target_audio/B075_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.678
+    },
+    {
+      "task_id": "B075::marked_audio",
+      "path": "target_audio/B075_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B076::neutral_audio",
+      "path": "target_audio/B076_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.192
+    },
+    {
+      "task_id": "B076::marked_audio",
+      "path": "target_audio/B076_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.307
+    },
+    {
+      "task_id": "B077::neutral_audio",
+      "path": "target_audio/B077_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.656
+    },
+    {
+      "task_id": "B077::marked_audio",
+      "path": "target_audio/B077_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.514
+    },
+    {
+      "task_id": "B082::neutral_audio",
+      "path": "target_audio/B082_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.235
+    },
+    {
+      "task_id": "B082::marked_audio",
+      "path": "target_audio/B082_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.121
+    },
+    {
+      "task_id": "B085::neutral_audio",
+      "path": "target_audio/B085_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.471
+    },
+    {
+      "task_id": "B085::marked_audio",
+      "path": "target_audio/B085_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    },
+    {
+      "task_id": "B087::neutral_audio",
+      "path": "target_audio/B087_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.399
+    },
+    {
+      "task_id": "B087::marked_audio",
+      "path": "target_audio/B087_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.886
+    },
+    {
+      "task_id": "B088::neutral_audio",
+      "path": "target_audio/B088_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.099
+    },
+    {
+      "task_id": "B088::marked_audio",
+      "path": "target_audio/B088_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 3.771
+    },
+    {
+      "task_id": "B089::neutral_audio",
+      "path": "target_audio/B089_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.935
+    },
+    {
+      "task_id": "B089::marked_audio",
+      "path": "target_audio/B089_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.607
+    },
+    {
+      "task_id": "B090::neutral_audio",
+      "path": "target_audio/B090_neutral.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 2.564
+    },
+    {
+      "task_id": "B090::marked_audio",
+      "path": "target_audio/B090_marked.wav",
+      "channels": 1,
+      "sample_rate": 44100,
+      "sample_width_bytes": 2,
+      "duration_seconds": 4.05
+    }
+  ]
+}

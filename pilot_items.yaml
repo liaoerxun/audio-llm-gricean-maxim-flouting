@@ -1,0 +1,386 @@
+# Pilot stimuli for the audio implicature experiment.
+# These items are experimenter-designed and are not human-validated.
+# Audio recordings should be stored in a separate recording manifest.
+
+- item_id: P001
+  maxim: quality
+  subtype: sarcastic_praise
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A colleague has presented the first draft of a project proposal
+    and asks for an immediate reaction.
+  preceding_utterance: "So, what did you think?"
+  target_utterance: "That was really impressive."
+  literal_interpretation: >
+    The speaker was genuinely impressed by the presentation.
+  implicature_interpretation: >
+    The speaker thought the presentation was unimpressive.
+  primary_cue: "exaggerated pitch and contrastive stress"
+  secondary_cue: "short low final fall"
+  neutral_delivery: >
+    Use a natural speaking rate and a sincere positive contour on
+    "really impressive."
+  marked_delivery: >
+    Elongate "really," place exaggerated stress on "impressive,"
+    and finish with a short low fall.
+
+  design_rationale:
+
+- item_id: P002
+  maxim: quality
+  subtype: insincere_agreement
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    Two colleagues are discussing a proposed explanation for an
+    unexpected experimental result.
+  preceding_utterance: "I think this explanation accounts for everything."
+  target_utterance: "That makes perfect sense."
+  literal_interpretation: >
+    The speaker agrees that the explanation is coherent.
+  implicature_interpretation: >
+    The speaker thinks the explanation does not make sense.
+  primary_cue: "contrastive stress on 'perfect'"
+  secondary_cue: "brief pause before the stressed word"
+  neutral_delivery: >
+    Use a smooth, confident delivery with natural prominence on
+    "perfect sense."
+  marked_delivery: >
+    Pause briefly before "perfect," exaggerate its prominence,
+    and end "sense" with a low abrupt fall.
+
+  design_rationale:
+
+- item_id: P003
+  maxim: quality
+  subtype: ironic_evaluation
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A student checks the result of a task they have just completed.
+    The context does not reveal whether the task was successful.
+  preceding_utterance: null
+  target_utterance: "That went well."
+  literal_interpretation: >
+    The task was completed successfully.
+  implicature_interpretation: >
+    The task went badly.
+  primary_cue: "marked elongation of 'well'"
+  secondary_cue: "exaggerated falling intonation"
+  neutral_delivery: >
+    Use a relaxed, positive delivery with a mild natural fall on "well."
+  marked_delivery: >
+    Elongate "well" and use a wider, exaggerated falling contour.
+
+  design_rationale:
+
+- item_id: P004
+  maxim: quality
+  subtype: ironic_understatement
+  item_role: cross_maxim
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A problem occurs during an activity, and one participant comments
+    on its impact. The context does not specify how serious it was.
+  preceding_utterance: "Did that cause any trouble?"
+  target_utterance: "It was a little inconvenient."
+  literal_interpretation: >
+    The problem caused only minor inconvenience.
+  implicature_interpretation: >
+    The problem caused serious inconvenience.
+  primary_cue: "contrastive stress on 'little'"
+  secondary_cue: "brief pause before 'inconvenient'"
+  neutral_delivery: >
+    Use an even delivery without giving special prominence to "little."
+  marked_delivery: >
+    Elongate and emphasize "little," pause briefly, and finish
+    "inconvenient" with a low contour.
+
+  design_rationale:
+
+- item_id: P005
+  maxim: quality
+  subtype: mock_enthusiasm
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A person learns that the schedule for a group activity has changed.
+    The context does not indicate whether the change is welcome.
+  preceding_utterance: "It looks like the schedule has changed."
+  target_utterance: "That's exactly what I wanted."
+  literal_interpretation: >
+    The schedule change matches the speaker's preference.
+  implicature_interpretation: >
+    The speaker did not want the schedule to change.
+  primary_cue: "exaggerated stress on 'exactly'"
+  secondary_cue: "deadpan final phrase"
+  neutral_delivery: >
+    Use a warm, positive delivery with natural prominence on "exactly."
+  marked_delivery: >
+    Elongate and exaggerate "exactly," then produce "what I wanted"
+    with a compressed pitch range.
+
+  design_rationale:
+
+- item_id: P006
+  maxim: quantity
+  subtype: reluctant_brevity
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    Alex has just returned from an important job interview for which
+    they had prepared for several weeks.
+  preceding_utterance: "How did the interview go?"
+  target_utterance: "It was fine."
+  literal_interpretation: >
+    The interview was reasonably successful.
+  implicature_interpretation: >
+    The interview probably went badly, and Alex does not want to discuss it.
+  primary_cue: "response delay"
+  secondary_cue: "elongated low final word"
+  neutral_delivery: >
+    Respond immediately at a natural rate and use a mild final fall.
+  marked_delivery: >
+    Delay the response, elongate "fine," and finish with a low abrupt fall.
+
+  design_rationale:
+
+- item_id: P007
+  maxim: quantity
+  subtype: measurable_information_substitution
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A team member has spent the afternoon working on an important report.
+  preceding_utterance: "How much progress did you make?"
+  target_utterance: "I worked on it all afternoon."
+  literal_interpretation: >
+    The speaker worked productively and presents the time spent as
+    evidence of substantial progress.
+  implicature_interpretation: >
+    The speaker made little progress and substitutes time spent for
+    actual results.
+  primary_cue: "hesitation before the response"
+  secondary_cue: "uncertain final contour"
+  neutral_delivery: >
+    Use a confident delivery with natural prominence on "all afternoon."
+  marked_delivery: >
+    Hesitate before "worked," reduce the prominence of "all afternoon,"
+    and finish with a low uncertain contour.
+
+  design_rationale:
+
+- item_id: P008
+  maxim: quantity
+  subtype: selectively_informative_answer
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A student has just finished an exam.
+  preceding_utterance: "How did the exam go?"
+  target_utterance: "I answered all the questions."
+  literal_interpretation: >
+    The speaker considers answering every question evidence that the
+    exam went reasonably well.
+  implicature_interpretation: >
+    The speaker is uncertain whether the answers were correct and avoids
+    evaluating the exam directly.
+  primary_cue: "hesitation before 'answered'"
+  secondary_cue: "contrastive stress on 'all'"
+  neutral_delivery: >
+    Use a confident delivery with natural positive prominence on "all."
+  marked_delivery: >
+    Pause briefly before "answered," place marked stress on "all,"
+    and end with a restrained low contour.
+
+  design_rationale:
+
+- item_id: P009
+  maxim: quantity
+  subtype: minimizing_information
+  item_role: cross_maxim
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A researcher has just met their supervisor to discuss a draft paper.
+  preceding_utterance: "What did your supervisor think of the paper?"
+  target_utterance: "There were a few comments."
+  literal_interpretation: >
+    The supervisor made a small number of ordinary comments.
+  implicature_interpretation: >
+    The supervisor identified substantial problems that the researcher
+    does not want to describe.
+  primary_cue: "elongation and stress on 'few'"
+  secondary_cue: "low final contour"
+  neutral_delivery: >
+    Use a relaxed delivery without giving special prominence to "few."
+  marked_delivery: >
+    Elongate and emphasize "few," then produce "comments" with a low,
+    restrained ending.
+
+  design_rationale:
+
+- item_id: P010
+  maxim: quantity
+  subtype: over_elaborate_avoidance
+  item_role: lexical_diagnostic
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A team member attended a meeting in which a client was expected to
+    approve or reject a proposal.
+  preceding_utterance: "Did the client approve the proposal?"
+  target_utterance: >
+    They reviewed the introduction, asked about the timeline, discussed
+    the budget, and said they would contact us next week.
+  literal_interpretation: >
+    The speaker gives a factual summary of the meeting and may not know
+    the client's final decision.
+  implicature_interpretation: >
+    The proposal was not approved, and the speaker avoids saying so directly.
+  primary_cue: "rapid list-like delivery"
+  secondary_cue: "minimal phrase-final prominence"
+  neutral_delivery: >
+    Use a natural rate with clear boundaries between the listed events.
+  marked_delivery: >
+    Use a faster list-like rate with minimal pauses and finish the response
+    quickly without emphasizing a conclusion.
+
+  design_rationale:
+
+- item_id: P011
+  maxim: manner
+  subtype: indirect_negative_feedback
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A supervisor has read a student's research proposal. The student
+    asks whether it is ready to submit.
+  preceding_utterance: "Do you think I can submit it now?"
+  target_utterance: "You may want to look at the conclusion again."
+  literal_interpretation: >
+    The conclusion could benefit from another review.
+  implicature_interpretation: >
+    The conclusion has serious problems, and the proposal is not ready
+    for submission.
+  primary_cue: "strategically placed hesitation"
+  secondary_cue: "low final contour on 'again'"
+  neutral_delivery: >
+    Use a smooth, constructive delivery with natural prominence on
+    "conclusion."
+  marked_delivery: >
+    Pause briefly after "may," slow down before "conclusion," and produce
+    "again" with a low restrained ending.
+
+  design_rationale:
+
+- item_id: P012
+  maxim: manner
+  subtype: hedged_negative_assessment
+  item_role: cross_maxim
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    Two researchers are discussing preliminary results from an experiment.
+  preceding_utterance: "Do the results support our hypothesis?"
+  target_utterance: "They are somewhat difficult to interpret."
+  literal_interpretation: >
+    The results are genuinely ambiguous and require further analysis.
+  implicature_interpretation: >
+    The results probably do not support the hypothesis, but the speaker
+    avoids saying so directly.
+  primary_cue: "contrastive stress on 'somewhat'"
+  secondary_cue: "pause before 'difficult'"
+  neutral_delivery: >
+    Use an analytical, even delivery with natural prominence on "interpret."
+  marked_delivery: >
+    Elongate and emphasize "somewhat," pause before "difficult," and
+    finish with a hesitant low contour.
+
+  design_rationale:
+
+- item_id: P013
+  maxim: manner
+  subtype: evasive_attribution
+  item_role: contextual_diagnostic
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    Two team members are investigating an error in a shared document.
+    The listener was the last person to edit the file.
+  preceding_utterance: "Do you know how the settings were changed?"
+  target_utterance: "Someone may have made a change to the file."
+  literal_interpretation: >
+    The speaker is uncertain about who changed the file.
+  implicature_interpretation: >
+    The speaker suspects the listener but avoids making a direct accusation.
+  primary_cue: "contrastive stress on 'someone'"
+  secondary_cue: "deliberate pause before 'may'"
+  neutral_delivery: >
+    Use a neutral, uncertain delivery without emphasizing any individual word.
+  marked_delivery: >
+    Place contrastive stress on "someone," pause before "may," and use
+    a deliberate falling contour on "change."
+
+  design_rationale:
+
+- item_id: P014
+  maxim: manner
+  subtype: indirect_rejection
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A colleague proposes using a new method for the final analysis and
+    asks for an opinion.
+  preceding_utterance: "Should we use this method for the final analysis?"
+  target_utterance: "We could consider some other options."
+  literal_interpretation: >
+    The speaker is open to comparing several possible methods.
+  implicature_interpretation: >
+    The speaker rejects the proposed method but does not want to say so directly.
+  primary_cue: "hesitation on 'could'"
+  secondary_cue: "firm final fall on 'other options'"
+  neutral_delivery: >
+    Use an open, collaborative delivery with natural prominence on
+    "other options."
+  marked_delivery: >
+    Elongate "could," pause before "other options," and finish with a
+    firm low fall.
+
+  design_rationale:
+
+- item_id: P015
+  maxim: manner
+  subtype: softened_recommendation
+  item_role: core
+  generated_by: researcher
+  dataset_split: development
+  context: >
+    A project group is deciding whether to keep its current presentation
+    opening or test a new one.
+  preceding_utterance: "Should we keep the current opening?"
+  target_utterance: "We could try a different opening."
+  literal_interpretation: >
+    Trying another opening is one possible option.
+  implicature_interpretation: >
+    The current opening should not be kept.
+  primary_cue: "pause after 'could'"
+  secondary_cue: "contrastive stress on 'different'"
+  neutral_delivery: >
+    Use an open, exploratory delivery with even phrasing.
+  marked_delivery: >
+    Pause after "could," place marked stress on "different," and finish
+    with a firm falling contour.
+
+  design_rationale:
